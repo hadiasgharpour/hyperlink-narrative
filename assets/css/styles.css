@@ -2,4 +2,50 @@
 
 * {
 	font-family: Arial;
+	line-height: 1.4em;
+}
+
+p a {
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.3em;
+	color: brown;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+p a:hover {
+	color: blue;
+	border-bottom: 2px dotted dodgerblue;
+	
+}
+
+ul.choices {
+	list-style-type: none;
+	width: 90%;
+
+}
+
+ul.choices li a {
+	color: red;
+	text-decoration: none;
+	font-weight: bold;
+	border: 4px dashed #2e3e28;
+	display: block;
+	background-color: darkkhaki;
+	margin: 10px;
+	padding: 15px 18px;
+}
+
+ul.choices li a:hover {
+	color: darkkhaki;
+	background-color: red;
+}
+
+img {
+	padding: 20px;
+	border-radius: 10px 40px 5px 0;
+}
+
+img:hover{
+	background-color: #000;
 }
